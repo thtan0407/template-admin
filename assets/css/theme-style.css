@@ -52,11 +52,6 @@
     max-height: 93%;
 }
 
-@media screen and (min-width: 2560px) {
-    .custom-theme .schedule-wrap {
-        max-height: 99%;
-    }
-}
 
 .custom-theme .schedule-cont {
     height: 100%;
@@ -103,5 +98,20 @@
     .custom-theme .schedule-overflow::-webkit-scrollbar-thumb:hover,
     .custom-theme .schedule-cont::-webkit-scrollbar-thumb:hover {
         background: #555;
+    }
+}
+
+
+@media screen and (min-width: 2560px) {
+    .custom-theme .sidebar-fixed .sidebar-content::-webkit-scrollbar,
+    .custom-theme .schedule-overflow::-webkit-scrollbar {
+        width: auto;
+    }
+
+    .custom-theme .schedule-cont::-webkit-scrollbar {
+        height: auto;
+    }
+    .custom-theme .schedule-wrap {
+        max-height: 99%;
     }
 }
