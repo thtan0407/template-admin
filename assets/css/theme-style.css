@@ -1,0 +1,101 @@
+.custom-theme .navbar-nav,
+.custom-theme .navbar-inverse .navbar-nav > li > a {
+    display: flex;
+    align-items: center;
+}
+
+.custom-theme .schedule-header .btn-square-border {
+    background-size: 14px !important;
+}
+
+.custom-theme {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.custom-theme .schedule-header .badge {
+    min-width: 25px;
+    height: 25px;
+    line-height: 12px;
+    top: -10px;
+    margin-right: -5px;
+}
+
+.custom-theme .schedule-wrap .sch-nav {
+    border-radius: 0;
+}
+
+.custom-theme .schedule-cont {
+    overflow-y: hidden;
+}
+
+.custom-theme .schedule-wrap {
+    padding: 0;
+}
+
+.custom-theme .content-wrapper {
+    position: relative;
+    z-index: 2222;
+}
+
+/*@media screen and (min-width: 2000px) {*/
+.custom-theme .page-container {
+    height: 100%;
+}
+
+.custom-theme .content-wrapper {
+    height: 100%;
+}
+
+.custom-theme .schedule-wrap {
+    height: 100%;
+    max-height: 93%;
+}
+
+.custom-theme .schedule-cont {
+    height: 100%;
+}
+
+.custom-theme .schedule-cont table {
+    height: 100%;
+}
+
+.custom-theme .schedule-overflow {
+    height: 100%;
+}
+
+.custom-theme .schedule-overflow {
+    max-height: unset;
+}
+
+/*}*/
+
+
+@media (min-width: 768px) {
+    .custom-theme .sidebar-fixed .sidebar-content::-webkit-scrollbar,
+    .custom-theme .schedule-overflow::-webkit-scrollbar {
+        width: .8rem;
+    }
+
+    .custom-theme .schedule-cont::-webkit-scrollbar {
+        height: .8rem;
+    }
+
+    .custom-theme .sidebar-fixed .sidebar-content::-webkit-scrollbar-track,
+    .custom-theme .schedule-cont::-webkit-scrollbar-track,
+    .custom-theme .schedule-overflow::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    .custom-theme .sidebar-fixed .sidebar-content::-webkit-scrollbar-thumb,
+    .custom-theme .schedule-overflow::-webkit-scrollbar-thumb,
+    .custom-theme .schedule-cont::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    .custom-theme .sidebar-fixed .sidebar-content::-webkit-scrollbar-thumb:hover,
+    .custom-theme .schedule-overflow::-webkit-scrollbar-thumb:hover,
+    .custom-theme .schedule-cont::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
