@@ -52,6 +52,12 @@
     max-height: 93%;
 }
 
+@media screen and (min-width: 2560px) {
+    .custom-theme .schedule-wrap {
+        max-height: 99%;
+    }
+}
+
 .custom-theme .schedule-cont {
     height: 100%;
 }
